@@ -2,7 +2,7 @@ import streamlit as st
 from models.video_analyzer import analyze_video, chat_prompt
 import os
 
-api_key = st.secrets["OPENAI"]['OPENAI_API_KEY']
+api_key = st.secrets['OPENAI']['OPENAI_API_KEY']
 
 st.set_page_config(
     page_title="Analyze Video",

@@ -94,7 +94,7 @@ def openai_analsis(video_name : str, video_ext : str = 'mp4', facialContext: str
 
         headers = {
             "Content-Type": "application/json",
-            "Authorization": f"Bearer {st.secrets["OPENAI"]['OPENAI_API_KEY']}"
+            "Authorization": f"Bearer {st.secrets['OPENAI']['OPENAI_API_KEY']}"
         }
 
         messages = [
@@ -209,7 +209,7 @@ def openai_analsis_extended_crop(video_name : str, video_ext : str = 'mp4') -> s
 
         headers = {
             "Content-Type": "application/json",
-            "Authorization": f"Bearer {st.secrets["OPENAI"]['OPENAI_API_KEY']}"
+            "Authorization": f"Bearer {st.secrets['OPENAI']['OPENAI_API_KEY']}"
         }
 
         messages = [
